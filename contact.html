@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Sea Breeze</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .card {border-radius: 15px; overflow: hidden; background: #f4f3ef}
+    .footer {text-align: center; padding: 15px;}
+    .header {background: linear-gradient(90deg, #022954, #354c7c, #022954); color: white; padding: 30px; text-align: center;}
+    .header h1 {margin: 0; font-weight: bold;}
+    body {background-image: url('background.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;}
+    .navbar {background: linear-gradient(90deg, #022954, #354c7c, #022954); padding-top: 20px; padding-bottom: 20px;}
+    .navbar-brand, .nav-link {color: white !important; font-weight: 500; font-size: 18px;}
+    .navbar-brand {font-size: 22px; font-weight: bold;}
+    .navbar-brand:hover, .nav-link:hover {color: #bcd0ff !important;}
+    .contact-card {background: #ffffff; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); padding: 25px; text-align: center; transition: transform 0.3s ease; border-top: 5px solid #022954;}
+    .contact-card:hover {transform: translateY(-5px); box-shadow: 0 12px 25px rgba(0,0,0,0.15);}
+    .contact-card i {font-size: 2rem; color: #022954; margin-bottom: 10px;}
+    .contact-card h3 {margin-bottom: 10px; color: #022954;}
+    .contact-card p {color: #333;}
+    .opening-hours {background: #f4f3ef; padding: 20px; border-radius: 10px; text-align: center; border-left: 5px solid #022954; box-shadow: 0 5px 15px rgba(0,0,0,0.05); margin-top: 30px;}
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">🌀 Sea Breeze 🌀</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="order.html">Ordering Form</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container my-5">
+    <div class="card shadow">
+      <div class="header">
+        <h1>Contact Us</h1>
+        <p class="mb-0">We’d love to hear from you!</p>
+      </div>
+
+      <div class="p-4">
+        <div class="row align-items-stretch">
+          <div class="col-md-4 mb-4 d-flex">
+            <div class="contact-card h-100 w-100">
+              <i class="bi bi-geo-alt-fill"></i>
+              <h3>Our Location</h3>
+              <p>67 Seaside Avenue<br>Bayview, Tagaytay<br>Philippines</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 d-flex">
+            <div class="contact-card h-100 w-100">
+              <i class="bi bi-telephone-fill"></i>
+              <h3>Phone Numbers</h3>
+              <p>Mobile: 0967 612 0608<br>Landline: (02) 067-3334</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 d-flex">
+            <div class="contact-card h-100 w-100">
+              <i class="bi bi-envelope-fill"></i>
+              <h3>Email Address</h3>
+              <p>seabreeze@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="opening-hours">
+          <p><strong>🕒 Open Daily:</strong> 9:00 AM – 10:00 PM</p>
+          <p>For inquiries, feel free to call or email anytime!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
